@@ -37,7 +37,9 @@ class TransformVisitor : public NodeVisitor
             _coordMode(coordMode),
             _matrix(matrix),
             _ignoreCameras(ignoreCameras)
-            {}
+            {
+                setNodeMaskOverride(0xffffffff);
+            }
 
         virtual void apply(Transform& transform)
         {
