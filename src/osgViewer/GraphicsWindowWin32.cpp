@@ -25,6 +25,7 @@
 #include <osg/ApplicationUsage>
 #include <osg/os_utils>
 
+#include <sstream>
 #include <vector>
 #include <map>
 
